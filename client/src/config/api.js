@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create base URL API
 export const API = axios.create({
-  baseURL: 'https://dewe-tour.fly.dev/api/v1',
+  baseURL: process.env.REACT_APP_BASE_URL,
 });
 
 // Set Authorization Token Header
