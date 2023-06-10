@@ -1,0 +1,19 @@
+.buttonreg{
+    width: 100px;
+    background: #FFAF00;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+}
+
+.atas{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    top: 0;
+}
+.conten{
+    color: white;
+    text-align: start;
+    margin-left: 10%;
+}

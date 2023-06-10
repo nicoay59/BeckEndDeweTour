@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Apalah {
+  text-align: center !important;
+}
+
+.carousel-indicators .carousel-indicator {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 100%;
+  height: 3px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+
+.carousel-indicators .carousel-indicator.active {
+  opacity: 1;
+}
+
+
+.carousel-inner img {
+  width: 100%
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100% !important
+}
+
+#myCarousel .carousel-indicators {
+  position: static;
+  margin-top: 10px
+}
+
+#myCarousel .carousel-indicators>li {
+  width: 200px
+}
+
+#myCarousel .carousel-indicators li img {
+  display: block;
+  opacity: 0.5
+}
+
+#myCarousel .carousel-indicators li.active img {
+  opacity: 1
+}
+
+#myCarousel .carousel-indicators li:hover img {
+  opacity: 0.75
+}
