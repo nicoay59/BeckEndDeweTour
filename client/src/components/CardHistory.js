@@ -64,7 +64,7 @@ function CardPaymentHistory() {
                     {data?.trip?.country?.country_name}
                 </p>
                 <p>
-                    Waiting Payment
+                {data?.status}
                 </p>
             </div>
             <div className='p-2 flex-fill'>
